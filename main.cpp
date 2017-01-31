@@ -9,5 +9,9 @@ using namespace std;
 
 int main()
 {
-  
+  Entreprise.setName(VONY);
+
+  Vendeur Paul("Arid", "Paul", 50)
+  Vendeur
+
 }

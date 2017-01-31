@@ -1,7 +1,6 @@
 #ifndef DEF_ENTREPRISE
 #define DEF_ENTREPRISE
-#include <string>
-#include <vector>
+
 
 #include "employe.h"
 

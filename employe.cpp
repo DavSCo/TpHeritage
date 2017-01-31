@@ -6,6 +6,13 @@ Employe::Employe()
   m_salaireInitial = 0;
 }
 
+Employe(string name, string prenom, int age)
+{
+  name = m_name;
+  prenom = m_prenom;
+  age = m_age;
+}
+
 void Employe::setName(string value)
 {
   m_name = value;
