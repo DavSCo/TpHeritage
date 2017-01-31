@@ -23,7 +23,6 @@ public:
   double calculSalaire();
 
 private:
- int p_prime;
-
+ int m_prime;
 };
 #endif

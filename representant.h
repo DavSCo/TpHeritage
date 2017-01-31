@@ -2,6 +2,7 @@
 #define DEF_REPRESENTANT
 
 #define DEF_REPRESENTANT_MONTANT_PRIME 250
+#define DEF_REPRESENTANT_MONTANT_DEPLACEMENT 50
 
 #include <string>
 #include <vector>
@@ -15,13 +16,11 @@ public:
 
   Representant();
 
-  void setDeplacements(string value);
-  string getDeplacement() const;
-
-  void CalculeSalaire(int base, int prime, int déplacements);
+  void setDeplacements(int value);
+  int getDeplacement() const;
 
 private:
-  int p_déplacements;
+  int m_déplacements;
 };
 
 #endif

@@ -1,8 +1,7 @@
 #include "technicien.h"
-
 using namespace std;
 
-Techniciens::Techniciens() : Employe()
+Technicien::Technicien()
 {
-  m_salaireInitiale = 2000;
+  m_salaireInitial = DEF_TECHNICIEN_SALAIRE;
 }

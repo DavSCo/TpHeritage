@@ -15,8 +15,6 @@ public:
   void setnbHeures(string value);
   string getnbHeures() const;
 
-  void CalculeSalaire(int base, int nbHeures);
-
 private:
   int m_nbHeures;
 };

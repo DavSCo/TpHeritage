@@ -1,5 +1,7 @@
 #ifndef DEF_TECHNICIEN
-#define DEF_TECHNICIEN 2000
+#define DEF_TECHNICIEN
+
+#define DEF_TECHNICIEN_SALAIRE 2000
 
 #include <string>
 #include <vector>
