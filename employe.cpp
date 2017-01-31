@@ -39,10 +39,13 @@ int Employe::getSalaire() const
 
 void Employe::CalculeSalaire(int base)
 {
-  
+  base = 0;
 }
 
-void Employes::affiche()
+void Employe::affiche()
 {
- return
+  cout << "Le nom de l'employé est : " << m_name << endl
+  cout << "Le prénom de l'employé est : " << m_prenom << endl
+  cout << "L'employé a : " << m_age << " ans" << endl
+  cout << "Le salaire de l'employé est de : " << Employe::CalculeSalaire << endl
 }

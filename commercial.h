@@ -1,5 +1,5 @@
 #ifndef DEF_COMMERCIAL
-#define DEF_COMMERCIAL
+#define DEF_COMMERCIAL 2500
 
 #include <string>
 #include <vector>
