@@ -15,6 +15,6 @@ public:
 
 private:
   int p_déplacements;
-}
+};
 
 #endif
