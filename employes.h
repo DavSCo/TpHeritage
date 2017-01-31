@@ -1,6 +1,8 @@
 #include <string>
 #include <vector>
 
+#inc
+
 using namespace std;
 
 class Employes

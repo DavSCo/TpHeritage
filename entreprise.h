@@ -14,11 +14,37 @@ public:
     void setName(string value);
     string getName() const;
     
-    void addEmploye(Employe employe)
-    vector<Employs> getEmployes() const;
+    void setEmployes(Employes employes);
+    Employes getEmployes();
+    
+    void setTechnicien(Technicien technicien);
+    Technicien getTechnicien();
+    
+    void setInterimaire(Interimaire interimaire);
+    Interimaire getInterimaire();
+    
+    void setCommerciaux(Commerciaux commerciaux);
+    Commerciaux getCommerciaux();
+    
+    void setVendeur(Vendeur vendeur);
+    Vendeur getVendeur();
+    
+    void setRepresentant(Representant representant);
+    Representant getRepresentant();
+    
+    
+    
+    
+    
     
 private:
     string m_name;
-    vector<Employe> m_employe;
+    Employes m_employes;
+    Technicien m_technicien;
+    Interimaire m_interimaire;
+    Commerciaux m_commerciaux;
+    Vendeur m_vendeur;
+    Representant m_representant;
+    
     
 };
