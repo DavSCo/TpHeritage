@@ -1,7 +1,9 @@
+#ifndef DEF_EMPLOYES
+#define DEF_EMPLOYES
 #include <string>
 #include <vector>
 
-#inc
+
 
 using namespace std;
 
@@ -33,3 +35,4 @@ private:
     int m_age;
     int m_salaireInitiale;
 };
+#endif

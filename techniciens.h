@@ -1,5 +1,10 @@
+#ifndef DEF_TECHNICIENS
+#define DEF_TECHNICIENS
+
 #include <string>
 #include <vector>
+
+#include "employés.h"
 
 using namespace std;
 
@@ -11,3 +16,4 @@ public:
   void SalaireInitial(int base);
 
 };
+#endif

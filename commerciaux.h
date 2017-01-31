@@ -1,5 +1,9 @@
+#ifndef DEF_COMMERCIAUX
+#define DEF_COMMERCIAUX
+
 #include <string>
 #include <vector>
+#include "employés.h"
 
 using namespace std;
 
@@ -13,3 +17,4 @@ private:
  int p_prime;
 
 };
+#endif
