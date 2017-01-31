@@ -1,6 +1,11 @@
 #include "employe.h"
 using namespace std;
 
+Employe::Employe()
+{
+  m_salaireInitial = 0;
+}
+
 void Employe::setName(string value)
 {
   m_name = value;
@@ -28,24 +33,19 @@ int Employe::getAge() const
   return m_age;
 }
 
-void Employe::setSalaire(int value)
+/*void Employe::setSalaire(int value)
 {
   m_salaireInitiale = value;
 }
 int Employe::getSalaire() const
 {
   return m_salaireInitiale;
-}
-
-void Employe::CalculeSalaire(int base)
-{
-  base = 0;
-}
+}*/
 
 void Employe::affiche()
 {
-  cout << "Le nom de l'employé est : " << m_name << endl
-  cout << "Le prénom de l'employé est : " << m_prenom << endl
-  cout << "L'employé a : " << m_age << " ans" << endl
-  cout << "Le salaire de l'employé est de : " << Employe::CalculeSalaire << endl
+  cout << "Le nom de l'employé est : " << m_name << endl;
+  cout << "Le prénom de l'employé est : " << m_prenom << endl;
+  cout << "L'employé a : " << m_age << " ans" << endl;
+  cout << "Le salaire de l'employé est de : " << CalculeSalaire() << endl;
 }

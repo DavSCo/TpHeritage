@@ -1,5 +1,5 @@
-#ifndef DEF_EMPLOYES
-#define DEF_EMPLOYES
+#ifndef DEF_EMPLOYE
+#define DEF_EMPLOYE
 #include <string>
 #include <vector>
 
@@ -20,10 +20,10 @@ public:
     void setAge(int value);
     int getAge() const;
 
-    void setSalaire(int value);
-    int getSalaire() const;
+    /*void setSalaire(int value);
+    int getSalaire() const;*/
 
-    void CalculeSalaire(int base);
+    double calculSalaire();
 
     void affiche();
 
@@ -31,6 +31,6 @@ private:
     string m_name;
     string m_prenom;
     int m_age;
-    int m_salaireInitiale;
+    int m_salaireInitial;
 };
 #endif

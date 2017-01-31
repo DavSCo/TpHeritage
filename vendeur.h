@@ -1,6 +1,8 @@
 #ifndef DEF_VENDEUR
 #define DEF_VENDEUR
 
+#define DEF_VENDEUR_MONTANT_PRIME 100
+
 #include <string>
 #include <vector>
 

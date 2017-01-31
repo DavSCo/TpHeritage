@@ -1,5 +1,8 @@
 #ifndef DEF_COMMERCIAL
-#define DEF_COMMERCIAL 2500
+#define DEF_COMMERCIAL
+
+#define DEF_COMMERCIAL_SALAIRE 2500
+#define DEF_COMMERCIAL_MONTANT_PRIME 0
 
 #include <string>
 #include <vector>
@@ -14,10 +17,10 @@ public:
 
   Commercial();
 
-  void setPrime(string value);
-  string getPrime() const;
+  void setPrime(int value);
+  int getPrime() const;
 
-  void CalculeSalaire(int base, int prime);
+  double calculSalaire();
 
 private:
  int p_prime;
