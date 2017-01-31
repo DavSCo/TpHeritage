@@ -7,7 +7,7 @@ class Representants : public Employes
 {
 public:
 
-  void CalculeSalaire(int base, int prime, int déplacements);
+  void SalaireInitial(int base, int prime, int déplacements);
 
 private:
   int p_déplacements;

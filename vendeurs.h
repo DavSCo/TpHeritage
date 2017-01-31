@@ -3,12 +3,7 @@
 
 using namespace std;
 
-class Vendeurs : public Employes
+class Vendeurs : public Commerciaux
 {
-public:
-  void CalculeSalaire(int base, int prime);
-
-private:
- int p_prime;
 
 };
