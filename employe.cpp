@@ -1,47 +1,48 @@
 #include "employe.h"
+using namespace std;
 
-void Employes::setName(string value)
+void Employe::setName(string value)
 {
-
+  m_name = value;
 }
-string Employes::getName() const
+string Employe::getName() const
 {
-
-}
-
-void Employes::setPrenom(string value)
-{
-
-}
-string Employes::getPrenom() const
-{
-
+  return m_name;
 }
 
-void Employes::setAge(int value)
+void Employe::setPrenom(string value)
 {
-
+  m_prenom = value;
 }
-int Employes::getAge() const
+string Employe::getPrenom() const
 {
-
+  return m_prenom;
 }
 
-void Employes::setSalaire(int value)
+void Employe::setAge(int value)
+{
+  m_age = value;
+}
+int Employe::getAge() const
+{
+  return m_age;
+}
+
+void Employe::setSalaire(int value)
 {
   m_salaireInitiale = value;
 }
-int Employes::getSalaire() const
+int Employe::getSalaire() const
 {
-
+  return m_salaireInitiale;
 }
 
-void Employes::CalculeSalaire(int base)
+void Employe::CalculeSalaire(int base)
 {
-
+  
 }
 
 void Employes::affiche()
 {
-
+ return
 }
