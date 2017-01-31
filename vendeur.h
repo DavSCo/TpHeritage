@@ -8,8 +8,10 @@
 
 using namespace std;
 
-class Vendeur : public Commerciau
+class Vendeur : public Commercial
 {
+public:
+  Vendeur();
 
 };
 

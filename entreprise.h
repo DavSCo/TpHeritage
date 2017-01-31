@@ -34,11 +34,6 @@ public:
     void setRepresentant(Representant representant);
     Representant getRepresentant();
 
-
-
-
-
-
 private:
     string m_name;
     Employes m_employes;

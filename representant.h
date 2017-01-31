@@ -7,11 +7,16 @@
 
 using namespace std;
 
-class Representant : public Employe
+class Representant : public Commercial
 {
 public:
 
-  void SalaireInitial(int base, int prime, int déplacements);
+  Representant();
+
+  void setDeplacements(string value);
+  string getDeplacement() const;
+
+  void CalculeSalaire(int base, int prime, int déplacements);
 
 private:
   int p_déplacements;

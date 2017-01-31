@@ -1,5 +1,5 @@
-#ifndef DEF_COMMERCIAUX
-#define DEF_COMMERCIAUX
+#ifndef DEF_COMMERCIAL
+#define DEF_COMMERCIAL
 
 #include <string>
 #include <vector>
@@ -11,6 +11,12 @@ class Commercial : public Employe
 {
 
 public:
+
+  Commercial();
+
+  void setPrime(string value);
+  string getPrime() const;
+
   void CalculeSalaire(int base, int prime);
 
 private:
