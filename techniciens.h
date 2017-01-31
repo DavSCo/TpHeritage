@@ -3,7 +3,11 @@
 
 using namespace std;
 
-class techniciens
+class Techniciens : public Employes
 {
+
+public:
+
+  void SalaireInitial(int base);
 
 };

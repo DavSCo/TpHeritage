@@ -3,10 +3,13 @@
 
 using namespace std;
 
-class Commerciaux
+class Commerciaux : public Employes
 {
 
 public:
-  void salaire(int base, int prime);
+  void SalaireInitial(int base, int prime);
+
+private:
+ int p_prime;
 
 };
