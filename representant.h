@@ -17,10 +17,12 @@ public:
   Representant();
 
   void setDeplacements(int value);
-  int getDeplacement() const;
+  int getDeplacements();
 
-private:
-  int m_déplacements;
+  double calculSalaire();
+
+protected:
+  int m_deplacements;
 };
 
 #endif

@@ -18,11 +18,11 @@ public:
   Commercial();
 
   void setPrime(int value);
-  int getPrime() const;
+  int getPrime();
 
   double calculSalaire();
 
-private:
+protected:
  int m_prime;
 };
 #endif

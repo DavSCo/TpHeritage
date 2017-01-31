@@ -3,6 +3,12 @@
 
 
 #include "employe.h"
+#include "technicien.h"
+#include "interimaire.h"
+#include "commercial.h"
+#include "vendeur.h"
+#include "representant.h"
+
 
 using namespace std;
 
@@ -16,7 +22,7 @@ public:
     string getName() const;
 
     void setEmploye(Employe employe);
-    Employes getEmploye();
+    Employe getEmploye();
 
     void setTechnicien(Technicien technicien);
     Technicien getTechnicien();
@@ -25,7 +31,7 @@ public:
     Interimaire getInterimaire();
 
     void setCommercial(Commercial commercial);
-    Commerciaux getCommercial();
+    Commercial getCommercial();
 
     void setVendeur(Vendeur vendeur);
     Vendeur getVendeur();
@@ -35,10 +41,10 @@ public:
 
 private:
     string m_name;
-    Employes m_employes;
+    Employe m_employe;
     Technicien m_technicien;
     Interimaire m_interimaire;
-    Commerciaux m_commerciaux;
+    Commercial m_commercial;
     Vendeur m_vendeur;
     Representant m_representant;
 

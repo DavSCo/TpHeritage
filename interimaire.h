@@ -12,8 +12,11 @@ public:
 
   Interimaire();
 
-  void setnbHeures(string value);
-  string getnbHeures() const;
+  void setnbHeures(int value);
+  int getnbHeures();
+
+  
+  double calculSalaire();
 
 private:
   int m_nbHeures;

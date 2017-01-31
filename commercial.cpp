@@ -8,15 +8,15 @@ Commercial::Commercial()
 
 void Commercial::setPrime (int value)
 {
-  p_prime = value;
+  m_prime = value;
 }
 
 int Commercial::getPrime()
 {
-  return p_prime;
+  return m_prime;
 }
 
 double Commercial::calculSalaire ()
 {
-  return m_salaireInitial + (p_prime * DEF_COMMERCIAL_MONTANT_PRIME);
+  return m_salaireInitial + (m_prime * DEF_COMMERCIAL_MONTANT_PRIME);
 }

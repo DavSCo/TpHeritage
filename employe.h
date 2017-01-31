@@ -23,11 +23,11 @@ public:
     /*void setSalaire(int value);
     int getSalaire() const;*/
 
-    double calculSalaire();
+    virtual double calculSalaire();
 
-    void affiche();
+    virtual void affiche();
 
-private:
+protected:
     string m_name;
     string m_prenom;
     int m_age;

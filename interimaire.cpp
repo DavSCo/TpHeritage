@@ -8,7 +8,7 @@ void Interimaire::setnbHeures (int value)
 
 int Interimaire::getnbHeures()
 {
-  return m_déplacements;
+  return m_nbHeures;
 }
 
 double Interimaire::calculSalaire ()

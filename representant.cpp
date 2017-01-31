@@ -3,12 +3,12 @@ using namespace std;
 
 void Representant::setDeplacements (int value)
 {
-  m_déplacements = value;
+  m_deplacements = value;
 }
 
 int Representant::getDeplacements()
 {
-  return m_déplacements;
+  return m_deplacements;
 }
 
 double Representant::calculSalaire ()

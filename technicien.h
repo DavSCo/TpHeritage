@@ -17,5 +17,7 @@ public:
 
 Technicien();
 
+  double calculSalaire();
+
 };
 #endif

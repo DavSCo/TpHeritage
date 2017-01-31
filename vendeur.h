@@ -15,6 +15,7 @@ class Vendeur : public Commercial
 public:
   Vendeur();
 
+  double calculSalaire();
 };
 
 #endif
