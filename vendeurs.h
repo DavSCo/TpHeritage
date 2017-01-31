@@ -3,7 +3,12 @@
 
 using namespace std;
 
-class Vendeurs
+class Vendeurs : public Employes
 {
+public:
+  void SalaireInitial(int base, int prime);
+
+private:
+ int p_prime;
 
 };
