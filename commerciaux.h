@@ -7,7 +7,7 @@ class Commerciaux : public Employes
 {
 
 public:
-  void SalaireInitial(int base, int prime);
+  void CalculeSalaire(int base, int prime);
 
 private:
  int p_prime;

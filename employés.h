@@ -18,7 +18,10 @@ public:
     void setAge(int value);
     int getAge() const;
 
-    void SalaireInitial(int base);
+    void setSalaire(int value);
+    int getSalaire() const;
+
+    void CalculeSalaire(int base);
 
     void affiche();
 
